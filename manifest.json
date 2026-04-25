@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Meeting Muse",
+  "version": "1.0",
+  "description": "Record, transcribe, and summarize Google Meet sessions using Gemini AI.",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "scripting",
+    "tabs",
+    "activeTab",
+    "offscreen"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

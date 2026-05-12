@@ -57,8 +57,8 @@ Briefly follows a robust client-server architecture:
     - High-performance FastAPI service.
     - Handles file uploads and orchestrates AI requests.
 3.  **AI Intelligence Layer**:
-    - **Google Gemini 1.5 Flash**: Primary model for high-speed multimodal analysis.
-    - **Google Gemini 1.5 Pro**: Secondary fallback model for complex analysis.
+    - **Google Gemini 3.1 Flash Lite**: Primary model for high-speed multimodal analysis.
+    - **Google Gemini 2.5 Flash**: Secondary fallback model for reliable context analysis.
 
 ---
 

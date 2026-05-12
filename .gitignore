@@ -1,3 +1,8 @@
-node_modules/
+.venv/
 .env
+__pycache__/
+*.zip
+old/
 .DS_Store
+node_modules/
+*.webm

@@ -34,6 +34,7 @@ Briefly is a full-stack browser extension designed to record, transcribe, and su
 ### 3. Engineering Workflows (The "Wow" Factor)
 - **Auto-Architecture**: Generates visual Mermaid.js flowcharts from spoken technical descriptions.
 - **Jira Integration**: Converts any action item into a professional Jira ticket (Title, Description, Acceptance Criteria) with one click.
+- **Google Calendar Sync**: Automatically extracts deadlines and meeting times, allowing users to save them directly to their Google Calendar with a single click.
 
 ### 4. Intelligent Context (Local RAG)
 - **Meeting Chat**: Ask questions about the specific meeting you just recorded.
